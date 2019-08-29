@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+<link rel="apple-touch-icon" sizes="114x114" href="images/icontwo.png">
+<link rel="apple-touch-startup-image" href="images/startup.png" />
+<title>精彩点滴</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/buttons.css" rel="stylesheet" type="text/css">
+<link href="css/type.css" rel="stylesheet" type="text/css">
+<link href="css/add2home.css" rel="stylesheet" type="text/css">
+<link href="css/flexslider.css" rel="stylesheet" type="text/css">
+<link href="css/photoswipe.css" rel="stylesheet" type="text/css">
+
+<!-- Do not move the bellow script to custom.js! It must stay here to load properly! -->
+<script type="text/javascript">
+	function loadImages() {
+		if (document.getElementById) {  // DOM3 = IE5, NS6
+			document.getElementById('hidepage').style.visibility = 'hidden';
+		}else {
+		if (document.layers) {  // Netscape 4
+			document.hidepage.visibility = 'hidden';
+		}else {  // IE 4
+			document.all.hidepage.style.visibility = 'hidden';
+		  }
+	   }
+	}
+</script>
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<script type="text/javascript" src="scripts/contact.js"></script>
+<script type="text/javascript" src="scripts/jquery.flexslider-min.js"/></script>
+<script type="text/javascript" src="scripts/tweetable.js"></script>
+
+<script type="text/javascript" src="scripts/jquery.nivo.slider.pack.html"></script>
+<script type="text/javascript" src="scripts/klass.min.js"></script>
+<script type="text/javascript" src="scripts/code.photoswipe.jquery-3.0.4.min.js"></script>
+<script type="text/javascript" src="scripts/custom.js"></script>
+</head>
+
+<body OnLoad="loadImages()">
+<div class="site">
+  <div id="hidepage">
+    <p class="center-text">加载中，请稍后！<br/>
+      <img src="images/background/130.gif" alt="load"></p>
+  </div>
+  <div class="navigation"> 
+  <a id="home" class="selected" href="#"><img src="images/nav/item1ns.png" alt="img"><em class="under-icon-text">日常</em></a> 
+  <a id="about" href="#"><img src="images/nav/item2ns.png" alt="img"><em class="under-icon-text">旅游</em></a>
+   <a id="portfolio" href="#"><img src="images/nav/item3ns.png" alt="img"><em class="under-icon-text">点滴</em></a> 
+   <a id="blog" href="#"><img src="images/nav/item5ns.png" alt="img"><em class="under-icon-text">事件</em></a> 
+   <a id="contact" href="#"><img src="images/nav/item4ns.png" alt="img"><em class="under-icon-text">爱我家</em></a> </div>
+  <div class="decoration"></div>
+  <div class="home">
+    <div class="flexslider">
+      <ul class="slides">
+        <li> <img src="images/class/5.jpg" /> <p class="under-slider-heading shadow">野生动物园</p> </li>
+      </ul>
+    </div>
+   
+    <div class="flexslider">
+      <ul class="slides">
+        <li> <img src="images/class/2.jpg" /> <p class="under-slider-heading shadow">黄浦江滨江大道</p></li>
+      </ul>
+    </div>
+    
+    <div class="flexslider">
+      <ul class="slides">
+        <li> <img src="images/class/6.jpg" /><p class="under-slider-heading shadow">泰晤士小镇</p> </li>
+      </ul>
+    </div>
+    
+    <div class="flexslider">
+      <ul class="slides">
+        <li> <img src="images/class/4.jpg" /><p class="under-slider-heading shadow">开心农场</p></li>
+      </ul>
+    </div>
+    <p class="under-slider-heading shadow">开心农场</p>
+  </div>
+  <div class="about">
+    <div class="flexslider">
+      <ul class="slides">
+        <li> <img src="images/class/7.jpg" /></li>
+      </ul>
+    </div>
+    <p class="under-slider-heading shadow">普吉镇-下午剪影</p>
+    <div class="flexslider">
+      <ul class="slides">
+        <li> <img src="images/class/8.jpg" /> </li>
+      </ul>
+    </div>
+    <p class="under-slider-heading shadow">普吉岛-Jungceylon商业中心</p>
+    <div class="flexslider">
+      <ul class="slides">
+        <li> <img src="images/class/9.jpg" /> </li>
+      </ul>
+    </div>
+    <p class="under-slider-heading shadow">澳门-大沙巴牌坊</p>
+    <div class="flexslider">
+      <ul class="slides">
+        <li> <img src="images/class/3.jpg" /><p class="under-slider-heading shadow">香港-坚尼蒂海景</p></li>
+      </ul>
+    </div>
+    <p class="under-slider-heading shadow">香港-坚尼地海景</p>
+  </div>
+  <div class="portfolio">
+    <ul id="gallery" class="gallery">
+      <li><a href="images/swype/full/001.jpg"> <img src="images/class/5.jpg" alt="Caption Title One" /> </a></li>
+      <li><a href="images/swype/full/002.jpg"> <img src="images/class/6.jpg" alt="Caption Title Two" /> </a></li>
+      <li><a href="images/swype/full/003.jpg"> <img src="images/class/7.jpg" alt="Caption Title Three" /> </a></li>
+      <li><a href="images/swype/full/004.jpg"> <img src="images/class/8.jpg" alt="Caption Title Four" /> </a></li>
+      <li><a href="images/swype/full/005.jpg"> <img src="images/class/9.jpg" alt="Caption Title Five" /> </a></li>
+      <li><a href="images/swype/full/006.jpg"> <img src="images/class/10.jpg" alt="Caption Title Six" /> </a></li>
+      <li><a href="images/swype/full/007.jpg"> <img src="images/class/11.jpg" alt="Caption Title Eight" /> </a></li>
+      <li><a href="images/swype/full/008.jpg"> <img src="images/class/12.jpg" alt="Caption Title Nine" /> </a></li>
+      <li><a href="images/swype/full/009.jpg"> <img src="images/class/13.jpg" alt="Caption Title Ten" /> </a></li>
+    </ul>
+  </div>
+  <div class="blog">
+    <div class="orders">
+      <li class="ordersLeft"><img src="images/class/13.jpg" alt="Caption Title Ten" /></li>
+      <li class="ordersRight">
+        <p class="title">小龙虾</p>
+        <p class="fenlei">2018年8月</p>
+        <p class="jiage">好吃好吃</p>
+      </li>
+      <li><img src="images/kick.png" alt="Caption Title Ten" class="kick" /></li>
+    </div>
+    <div class="decoration"></div>
+    <!--分割线-->
+    <div class="orders">
+      <li class="ordersLeft"><img src="images/class/11.jpg" alt="Caption Title Ten" /></li>
+      <li class="ordersRight">
+        <p class="title">社会人</p>
+        <p class="fenlei">2018年5月</p>
+        <p class="jiage">泰国甲米</p>
+      </li>
+      <li><img src="images/kick.png" alt="Caption Title Ten" class="kick" /></li>
+    </div>
+    <div class="decoration"></div>
+    <!--分割线-->
+    <div class="orders">
+      <li class="ordersLeft"><img src="images/class/10.jpg" alt="Caption Title Ten" /></li>
+      <li class="ordersRight">
+        <p class="title">合照</p>
+        <p class="fenlei">2019年8月</p>
+        <p class="jiage">金桥公园</p>
+      </li>
+      <li><img src="images/kick.png" alt="Caption Title Ten" class="kick" /></li>
+    </div>
+    <div class="decoration"></div>
+    <!--分割线-->
+    <div class="orders">
+      <li class="ordersLeft"><img src="images/class/12.jpg" alt="Caption Title Ten" /></li>
+      <li class="ordersRight">
+        <p class="title">华夫饼</p>
+        <p class="fenlei">2018年5月</p>
+        <p class="jiage">曼谷</p>
+      </li>
+      <li><img src="images/kick.png" alt="Caption Title Ten" class="kick" /></li>
+    </div>
+    <div class="decoration"></div>
+    <!--分割线-->
+    <div style="text-align:center; color:#C00; margin:5px 0">两件小棉袄</div>
+    <div style="text-align:center"><a href="#" class="button green">雅晴&雅曼</a></div>
+  </div>
+  <div class="contact">
+        <p class="shadow">
+         <div style="text-align:center"><a href="#" class="button green">&nbsp;&nbsp;雅晴&雅曼&nbsp;&nbsp;</a></div>
+        </p>
+      <div class="flexslider">
+      <ul class="slides">
+        <li> <img src="images/class/10.jpg" /> </li>
+      </ul>
+    </div>
+    <div class="full-width">
+      <h4 class="shadow">欢乐小家庭</h4>
+      <div class="decoration"></div>
+      <p class="shadow"> 地址：金桥公园广场 </p>
+      <div class="decoration"></div>
+        <p class="shadow"> 日期：2019年8月</p>
+        <div class="decoration"></div>
+
+    <div class="flexslider">
+      <ul class="slides">
+        <li> <img src="images/class/1.jpg" /> </li>
+      </ul>
+    </div>
+    <div class="full-width">
+      <h4 class="shadow">欢乐大家庭</h4>
+      <div class="decoration"></div>
+      <p class="shadow"> 地址：澳门市政广场 </p>
+      <div class="decoration"></div>
+        <p class="shadow"> 日期：2018年5月7日</p>
+        <div class="decoration"></div>
+
+
+    </div>
+    
+  </div>
+</div>
+</body>
+</html>
